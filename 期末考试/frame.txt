@@ -1,0 +1,10 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>WELCOME!</title>
+</head>
+  <frameset cols="40%,60%">
+      <frame src="left.html"/>
+      <frame src="right.html"/>
+  </frameset>
+</html>

@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>My Website</title>
+  </head>
+  <body bgcolor=ivory>
+    <h2 align=center>HELLO！</h2>
+    <h3 align=center>欢迎访问我的主页</h3>
+    <h4 align=right>15281208 梁士正</h4>
+    <font size=4,color=blue>
+      个人网站的简介：<br>
+    </font>
+    <font size=3,color=blue>
+      <IMG src="cat.jpg" width=160 height=120 align=left>
+      个人网站是指因特网上一块固定的面向全世界发布消息的地方，<br>
+      个人网站由域名(也就是网站地址)、程序和网站空间构成，通常包括主页和其他具有超链接文件的页面。<br>
+      网站是一种通讯工具，就像布告栏一样，人们可以通过网站来发布自己想要公开的资讯，或者利用网站来提供相关的网络服务。<br>
+      个人网站是指个人或团体因某种兴趣、拥有某种专业技术、提供某种服务或把自己的作品、商品展示销售而制作的具有独立空间域名的网站。<br>
+      个人网站是万维网由个人创建的网页包含的内容，而不是个人性质的公司，组织或机构的代表。<br>
+    </font>
+    <table border="1">
+      <tr>
+        <td>诗两首</td>
+        <td>无序表</td>
+        <td>加菲猫</td>
+      </tr>
+      <tr>
+        <td><a href='1.html'>点击进入</a></td>
+        <td><a href='2.html'>点击进入</a></td>
+        <td><a href='3.html'>点击进入</a></td>
+      </tr>
+    </table>
+
+    <div style="float:left; text-align:center;">
+      <a href="https://baike.baidu.com/">
+        <IMG src="百度百科.jpg" width=262 height=117>
+      </a>
+      <br>
+      点击图片进入百度百科
+    </div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Leading</title>
+<style>
+    body
+    {
+    margin: 0;
+    }
+
+    ul
+    {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f2b361;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    }
+
+    li a
+    {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+    li a.active
+    {
+    background-color: #4CAF50;
+    color: white;
+    }
+
+    li a:hover:not(.active)
+    {
+    background-color: #555;
+    color: white;
+    }
+</style>
+</head>
+<body align="center">
+
+<ul>
+  <li><a href="frameForFirstPage.html" target="_parent">欢迎页</a></li>
+  <li><a href="frameForSecondPage.html" target="_parent">世界地图</a></li>
+  <li><a href="frameForThirdPage.html" target="_parent">详细介绍</a></li>
+  <li><a href="frameForFourthPage.html" target="_parent">说明文档</a></li>
+</ul>
+
+</body>
+</html>

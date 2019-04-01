@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>test</title>
+    <script type="text/javascript">
+        window.onload=function(){
+            // var form=document.forms[0];
+            var aSpn=document.querySelectorAll(".js-spn");
+            var oInp=document.querySelector(".js-inp-area");
+            oInp.onblur=function(){
+                var txt=this.value;
+                if(txt!==""){
+                    var re1=/[a]/g;
+                    var re2=/[e]/g;
+                    var len1=0,len2=0;
+                    if(txt.match(re1)!=null){
+                        len1=(txt.match(re1)).length;
+                        aSpn[0].innerHTML=len1;
+                    }
+                    if(txt.match(re2)!=null){
+                        len2=(txt.match(re2)).length;
+                        aSpn[1].innerHTML=len2;
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>
+    <input class="js-inp-area" type="text"><br>
+	a<span class="js-spn">  0</span><br>
+	e<span class="js-spn">  0</span><br>
+</body>
+</html>

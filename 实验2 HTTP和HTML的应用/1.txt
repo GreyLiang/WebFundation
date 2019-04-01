@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>显示预排格式</title>
+  </head>
+  <body>
+    <PRE>
+      <FONT color=blue>
+        <H1>
+          <FONT color=purple>
+            <P align=left>          唐诗二首</P></FONT></H1><FONT face=黑体 color=black>
+    赋得古原草送别                 长    相    思
+       唐·白居易                      唐·白居易
+离离原上草，一岁一枯荣；              汴水流，泗水流，
+野火烧不尽，春风吹又生。              流到瓜洲古渡头。
+远芳侵古道，晴翠接荒城；              吴山点点愁。
+又送王孙去，萋萋满别情。              思悠悠，恨悠悠，
+                                      恨到归时方始休。
+                                      月明人倚楼。
+      </FONT>
+    </PRE>
+    <a href='合并.html'>点击返回主页</a>
+  </body>
+</html>

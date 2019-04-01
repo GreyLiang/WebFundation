@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>HyperLink</title>
+  </head>
+  <body  bgcolor=ivory>
+    <br><br><br>
+    <p align=center>
+      <a href='blank.html' target="_blank">点击打开_blank窗口</a>
+    </p>
+    <p align=center>
+      <a href='blank.html' target="_top">点击打开_top窗口</a>
+    </p>
+    <p align=center>
+      <a href='blank.html' target="_self">点击打开_self窗口</a>
+    </p>
+    <p align=center>
+      <a href='blank.html' target="_parent">点击打开_parent窗口</a>
+    </p>
+    <p align=center>
+      <a href='video.html' target="_self">点击打开视频播放窗口</a>
+    </p>
+    <p align=center>
+      <a href='flash.html' target="_self">点击打开flash播放窗口</a>
+    </p>
+  </body>
+</html>

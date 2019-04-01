@@ -1,0 +1,28 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>TIME</title>
+<script type="text/javascript">
+<!--
+function clock()
+{
+var time = new Date();
+var hour = time.getHours();
+var minute = time.getMinutes();
+var second = time.getSeconds();
+hour = hour>=10?hour:("0"+hour);
+ minute  = minute >=10 ?minute :("0"+minute);
+ second = second >=10 ?second :("0"+second) ;
+document.form1.myClock.value = "现在是北京时间" + hour + "时" + minute + "分" + second + "秒";
+setTimeout("clock()",1000);		//定时反复的执行
+}
+//-->
+</script></head>
+<body onLoad="clock()">
+  <p>
+     <h3>当前时间</h3>
+     <form name="form1" method="post" action="">
+     <input name="myClock" type="text" style="border-style:none; font-size:14px">
+     </form>
+  </p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>iFrame</title>
+  </head>
+  <frameset cols="500px,500px,500px">
+    <frame src="hyperlink.html"/>
+  <frameset rows="100px,100px,100px">
+    <frame src="">
+    <frame src="">
+    <frame src="">
+  </frameset>
+  <frameset rows="100px,100px,100px">
+    <frame src="">
+    <frame src="">
+    <frame src="">
+  </frameset>
+  </frameset>
+</html>

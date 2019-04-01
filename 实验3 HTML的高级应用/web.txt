@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>WELCOME!</title>
+    <script type="text/javascript">
+	function showMsgs(){
+		var msg = document.getElementById("msg").value;
+		var showMsg = document.getElementById("showMsg");
+		showMsg.value = msg;
+	}
+    </script>
+  </head>
+  <body bgcolor=ivory>
+    <h2 align=center>HELLO！</h2>
+    <h3 align=center>欢迎访问我的主页</h3>
+    <h4 align=right>15281208 梁士正</h4>
+  <center>
+    <h3>请输入信息以完成注册</h3>
+    <p>测试输入窗口</p>
+    显示窗口<br><textArea id='showMsg' disabled></textArea><br>
+    输入窗口<br><textArea id='msg'></textArea><br>
+    <input type='button' value='submit' onclick="showMsgs()">
+    <p>请填写注册信息，提交后自动跳转！</p>
+    <form action="mainsite.html" method="get" autocomplete="on">
+	名字: <input type="text" name="name" /><br />
+	邮箱: <input type="email" name="email" /><br />
+	昵称: <input type="text" name="qname" autocomplete="off" /><br />
+        <input type="submit" onclick="showMsgs()"/>
+    </form>
+  </center>
+  </body>
+</html>

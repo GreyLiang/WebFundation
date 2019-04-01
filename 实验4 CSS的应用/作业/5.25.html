@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head><!--在头部分对使用的各个功能进行定义-->
+<style>
+body
+{background: #aaccdd;}<!--设置背景颜色-->
+
+<!--使用keyframes创建动画-->
+@-webkit-keyframes rotate{from{-webkit-transform: rotate(0deg)}to{-webkit-transform: rotate(360deg)}}
+@-moz-keyframes rotate{from{-moz-transform: rotate(0deg)}to{-moz-transform: rotate(359deg)}}
+@-o-keyframes rotate{from{-o-transform: rotate(0deg)}to{-o-transform: rotate(359deg)}}
+@keyframes rotate{from{transform: rotate(0deg)}to{transform: rotate(359deg)}
+}
+@-webkit-keyframes rotate2{from{-webkit-transform: rotate(0deg)}to{-webkit-transform: rotate(360deg)}}
+@-moz-keyframes rotate2{from{-moz-transform: rotate(0deg)}to{-moz-transform: rotate(359deg)}}
+@-o-keyframes rotate2{from{-o-transform: rotate(0deg)}to{-o-transform: rotate(359deg)}}
+@keyframes rotate2{from{transform: rotate(0deg)}to{transform: rotate(359deg)}}
+.windmill2
+{display: block;position: relative;margin: 50px auto;width: 100px;height:120px;}
+
+<!--定义风车固定不动的底座部分-->
+.windmill2 .pillar
+{position: absolute;top: 8px;left: 44px;display: block;height:0;width: 4px;border-width: 0 4px 80px 4px;border-style: none solid solid;border-color:transparent transparent white;}
+
+<!--定义风车旋转部分的轴心-->
+.windmill2 .axis
+{position: absolute;top: 0px;left: 46px;width: 4px;height: 4px;border:3px #fff solid;background: #a5cad6; border-radius: 5px;z-index: 88;-webkit-transition-property: -webkit-transform;-webkit-transition-duration: 1s; -moz-transition-property: -moz-transform;-moz-transition-duration: 1s;-webkit-animation: rotate 4s linear infinite; -moz-animation: rotate 4s linear infinite;-o-animation: rotate 4s linear infinite;animation: rotate 4s linear infinite;}
+
+<!--定义风车的第一个扇叶，以第一个扇叶为例详细注释--><!---->
+.windmill2 .swing
+{position: absolute;top: 1px;left: -2px;<!--分别定义了相对轴心的状态、顶端位置和最左端位置-->
+display: block;height: 0;width:2px;border-width: 50px 2px 0px 2px; <!--设置扇叶的形状-->border-style: solid solid none;border-color: white transparent transparent ;box-shadow: 1px 1px 1px rgba(105, 97, 97, 0.1);-webkit-transform-origin: 0px 0px;-webkit-transform: rotate(60deg);-moz-transform-origin: 0px 0px; -moz-transform: rotate(60deg);-ms-transform-origin: 0px 0px;-ms-transform: rotate(60deg);-o-transform-origin: 0px 0px;-o-transform: rotate(60deg);transform-origin: 0px 0px;transform: rotate(60deg);}
+
+<!--定义风车的第二个扇叶-->
+.windmill2 .swing2
+{position: absolute;top: 0px;left: 4.5px;display: block;height: 0;width: 2px;border-width: 50px 2px 0px 2px;border-style: solid solid none;border-color: white transparent transparent ;-webkit-transform-origin: 0px 0px;-webkit-transform: rotate(180deg);-moz-transform-origin: 0px 0px;-moz-transform: rotate(180deg); -ms-transform-origin: 0px 0px;-ms-transform: rotate(180deg);-o-transform-origin: 0px 0px;-o-transform: rotate(180deg);transform-origin: 0px 0px;transform: rotate(180deg);}
+
+<!--定义风车的第三个扇叶-->
+.windmill2 .swing3
+{position: absolute;top: 6px;left: 3px;display: block;height: 0;width:2px;border-width: 50px 2px 0px 2px; border-style: solid solid none;border-color: white transparent transparent ;-webkit-transform-origin: 0px 0px; -webkit-transform: rotate(300deg);-moz-transform-origin: 0px 0px;-moz-transform: rotate(300deg); -ms-transform-origin: 0px 0px;-ms-transform: rotate(300deg);-o-transform-origin: 0px 0px;-o-transform: rotate(300deg);transform-origin: 0px 0px;transform: rotate(300deg);}
+</style>
+</head>
+<body>
+<!--在body部分对各功能个进行调用实现完整的风车旋转的动画-->
+         <span class="windmill2">
+         <span class="pillar"></span>
+         <span class="axis">
+         <span class="swing"></span>
+         <span class="swing2"></span>
+         <span class="swing3"></span>
+         </span>
+         </span>
+</body>
+</html>

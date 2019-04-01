@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>本地环绕图片的设置与解除</title>
+  </head>
+  <body bgcolor=ivory>
+    <h4 align=center>加菲猫</h4>
+    <font size=3,color=blue>
+      <IMG src="cat.jpg" width=160 height=120 align=left>
+      我们热爱的加菲猫已经26岁啦！但他还来不及为青春逝去而黯然神伤，<br>
+      而是兴致勃勃地随主人乔恩来到了英国旅行。<br>
+      <IMG src="cat.jpg" width=160 height=120 border=3 align=right>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      并因此意外继承了一座美丽的城堡。在这座城堡里，加菲猫终于过上了梦寐以求的生活————
+      享受管家和仆人的照顾，和朋友们一起狂欢party，每天可以睡上好多个午觉，
+      醒来后还有可口的下午茶配无限量供应的猪肉卷......
+      <br color=all>
+      <IMG src="cat.jpg" width=160 height=120 hspace=60 vspace=5>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      加菲猫，品种属橘色虎斑猫，1978年6月19日生于一家意大利餐馆的厨房...<br>
+    </font>
+    <a href='合并.html'>点击返回主页</a>
+  </body>
+</html>
